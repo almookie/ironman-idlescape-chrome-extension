@@ -1,4 +1,4 @@
 node_modules/
-old-*/
+old/
 jsonconfig.json
 dist/

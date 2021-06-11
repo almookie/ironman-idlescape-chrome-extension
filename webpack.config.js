@@ -7,6 +7,11 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.tsx?$/,
+                use: 'ts-loader',
+                exclude: /node_modules/,
+            },
+            {
                 test: /\.jsx?$/,
                 exclude: /node_modules/,
                 use: {
@@ -14,7 +19,10 @@ module.exports = {
                 }
             }
         ],
-    },    
+    },
+    resolve: {
+        extensions: ['.ts', '.js', '.json']
+    },
     stats: {
         colors: true,
         modules: true,
@@ -23,7 +31,7 @@ module.exports = {
     },
     entry: {
         injector: './src/static/injector.js',
-        index: './src/main.jsx',
+        index: './src/main.ts',
     },
     output: {
         filename: '[name].js',
