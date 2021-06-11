@@ -1,0 +1,36 @@
+{
+    "name": "ironman-idlescape-chrome-extension",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/almookie/ironman-idlescape-chrome-extension.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/almookie/ironman-idlescape-chrome-extension/issues"
+    },
+    "homepage": "https://github.com/almookie/ironman-idlescape-chrome-extension#readme",
+    "devDependencies": {
+        "@babel/core": "^7.14.3",
+        "@babel/preset-env": "^7.14.4",
+        "@babel/preset-react": "^7.13.13",
+        "babel-loader": "^8.2.2",
+        "clean-webpack-plugin": "^4.0.0-alpha.0",
+        "copy-webpack-plugin": "^9.0.0",
+        "react-dom": "^17.0.2",
+        "webpack": "^5.38.1",
+        "webpack-cli": "^4.7.0"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-env",
+            "@babel/preset-react"
+        ]
+    }
+}

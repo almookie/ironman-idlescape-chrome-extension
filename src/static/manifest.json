@@ -1,0 +1,13 @@
+{
+    "name": "Ironman Utilities",
+    "description": "Utilities specifically aimed at an ironman account for Idlescape",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://idlescape.com/*"],
+            "js": ["injector.js"]
+        }
+    ],
+    "web_accessible_resources": ["index.js"]
+}
