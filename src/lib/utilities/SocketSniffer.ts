@@ -1,9 +1,3 @@
-// TODO: Accidently deleted the fucking file, gotta redo based off of stubs from main.ts
-export enum SocketMessage {
-    UpdatePlayer = 'update player',
-    UpdateInventory = 'update inventory'
-}
-
 export class SocketSniffer {
     socket: WebSocket;
     messageListeners: Function[];
